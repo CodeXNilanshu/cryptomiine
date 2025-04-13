@@ -1,13 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "installCommand": "pnpm install --no-frozen-lockfile"
-      }
-    }
-  ],
-  "buildCommand": "pnpm run build"
+  "framework": "nuxt",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": ".output/public"
 }
