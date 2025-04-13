@@ -1,5 +1,5 @@
 {
   "framework": "nuxt",
   "buildCommand": "pnpm run build",
-  "outputDirectory": ".output/public"
+  "outputDirectory": ".output"
 }
